@@ -36,14 +36,14 @@ public class JobController {
 //ModelAndView // 클래스(구현체)
 //ModelMap // 클래스(구현체)
 //Model // 인터페이스 (다형성) : 수많은 구현체를 커버할 수 있어서
-//// 우리가 객체를 생성하는가? 아니 그럼 누가? Spring이 생성해준다. Spring이 생성해준 객체가 바로 Spring bean !!!
+//// 우리가 객체를 생성하는가? 아니 그럼 누가? Spring이 생성해준다. Spring이 생성해준 객체가 바로 Spring Bean !!!
 //// - 인터페이스 기반의 Spring Bean을 사실상의 표준 : Best practice
 //@ResponseBody
 //@RestController
 //@@RestControllerAdvice
 //@GetMapping
 //@PostMapping
-//@PathVariable -paramters 명시를 해줘야한다는 오류가 뜬다면 @PathVariable("id") Integer id
+//@PathVariable -parameters 명시를 해줘야한다는 오류가 뜬다면 @PathVariable("id") Integer id
 //@RequestParam // required = false 명시 필요
 //@ModelAttribute // required = false 명시 불필요 (그냥 값이 없으면 알아서 null 반환)
 //@RequestBody + @ResponseBody
