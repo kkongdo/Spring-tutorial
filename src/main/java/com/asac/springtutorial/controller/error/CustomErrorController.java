@@ -1,4 +1,4 @@
-package com.asac.springtutorial.error;
+package com.asac.springtutorial.controller.error;
 
 import ch.qos.logback.core.model.Model;
 import jakarta.servlet.RequestDispatcher;
